@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript program</title>
+    </head>
+    <body>
+        <h1>my first javascript</h1>
+        <p>here, a javascript changes the values of the src (source) attribute of an image.</p>
+        <script>
+            function light(sw){
+                var pic;
+                if(sw==0){
+                    pic = "https://images.pexels.com/photos/1616472/pexels-photo-1616472.jpeg?cs=srgb&dl=pexels-dids-1616472.jpg&fm=jpg"
+                }
+                else{
+                    pic="https://media.istockphoto.com/id/1459979541/photo/classic-light-bulb-glowing-in-the-dark.jpg?s=2048x2048&w=is&k=20&c=QYjnX7z6Mb6Ch4jpaTEHlCppXhcVDDajPL_271hIYic="
+                }
+                document.getElementById('myimage').src=pic;
+            }
+        </script>
+        <img id="myimage" src="https://images.pexels.com/photos/1616472/pexels-photo-1616472.jpeg?cs=srgb&dl=pexels-dids-1616472.jpg&fm=jpg" width="100" height="180">
+        <p>
+            <button type="button" onclick="light(1)">light on</button>
+            <button type="button" onclick="light(0)">light off</button>
+        </p>
+    </body>
+</html>         
+

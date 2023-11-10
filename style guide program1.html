@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>semantic program</title>
+    </head>
+    <body>
+        <p id="Demo">this is paragraph 1</p>
+        <p id="demo">this is paragraph 2</p>
+        <script>
+            //only paragraph 2 will be overwritten
+            document.getElementById("demo").innerHTML="hello";
+        </script>
+    </body>
+</html>

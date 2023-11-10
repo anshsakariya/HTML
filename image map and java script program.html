@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>image map and java script program</title>
+    </head>
+    <body>
+        <h2>image map and java script program</h2>
+        <p>click on the cup of coffee to execute a JavaScript function:</p>
+        <img src="https://previews.123rf.com/images/olalaja/olalaja2004/olalaja200400016/145173278-work-from-home-workspace-office-at-home-notebook-or-laptop-computer-with-pen-mobile-phone-and.jpg" alt="workplace" usemap="#workmap" width="1300" height="867">
+        <map name="workmap">
+            <area shape="circle" coords="277,476,487" alt="tea" href="https://www.google.com/search?q=tea+picture&sca_esv=579056776&tbm=isch&sxsrf=AM9HkKkoFCteQmEyjV-U-Oa1yX8M3OL3NQ:1698985899566&source=lnms&sa=X&ved=2ahUKEwjrk5bY_6aCAxXZa2wGHbEkBbIQ_AUoAXoECAQQAw&biw=1536&bih=739&dpr=1.25" onclick="myFunction()">
+        </map>
+        <script>
+            function myFunction() {
+              alert("You clicked the coffee cup!");
+            }
+            </script>
+    </body>
+</html>

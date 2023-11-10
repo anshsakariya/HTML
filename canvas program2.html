@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>canvas program</title>
+    </head>
+    <body>
+        
+        <canvas id="mycanvas" width="200" height="100" style="border: 1px solid black;">
+            you browser does not support the html canvas tag.
+            </canvas>
+            <script>
+                var c=document.getElementById("mycanvas");
+                var ctx=c.getContext("2d");
+                ctx.moveTo(0,0);
+                ctx.lineTo(200,100);
+                ctx.stroke();
+            </script>  <br><br><br><br>
+
+            
+
+    
+         </body>
+         </html>
